@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Raleway", "Sans serif";
+    margin: 0;
+}
+
+.header-img {
+    margin: 3%;
+}
+
+
+/* menu de navigation */
+.en-tete {
+	display:block;
+	justify-content: space-evenly;
+}
+
+.navmenu {
+    display: flex;
+    margin: 15px 0px 25px 0px;
+    justify-content: space-around;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* .navmenu:hover {
+    border-top: 2px #0065fc;
+    padding-top: 10px;
+} */
+
+.hebergement {
+    color:#0065FC;
+    text-decoration: none;
+    border-bottom: medium solid  #0065FC ;
+
+}
+
+.activites {
+    color: black;
+    text-decoration: none;
+}
+
+.signup {
+    position: absolute;
+    margin-left: -100px;
+    left: 100%;
+    top: 3.5%;
+    color: #0065FC;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* landing page */
+
