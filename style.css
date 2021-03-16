@@ -643,9 +643,15 @@ footer a {
         margin-top: 0px;
     }
 
-    .text-block div {
-        margin-top: 40px;
+    .text-block {
+        position: relative;
     }
+
+    .text-block div {
+        position: absolute;
+        margin-top: 90px;
+    }
+
 
     .popular-title h2 {
         margin-left: 10px;
