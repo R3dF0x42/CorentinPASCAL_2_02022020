@@ -147,6 +147,12 @@ body {
     height: 44px;
 }
 
+.filters-button:hover {
+    background-color:#ecf5fd;
+    box-shadow: 3px 3px 8px #444444;
+    cursor: pointer;
+}
+
 .filters-icon {
     display: flex;
     align-items: center;
@@ -666,19 +672,20 @@ footer a {
     }
 
     .hosting-marseille-title {
-        margin-left: 10px;
+        margin-left: 4%;
+        padding-bottom: 0px;
     }
 
     .show-more {
         margin-top: 3px;
-        margin-left: 40px;
+        margin-left: 5.5%;
     }
     
     .block-marseille {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 10px;
+        padding: 0px 10px;
     }
 
     .block2 {
